@@ -49,52 +49,33 @@
         <h2> Te presento algunos de mis productos</a> </h2>
         <h3> <a href="../paginas/pedidos.html"> ¡Hace clic y realiza tu pedido!
         </a></h3>
-        <div class="productos">
-            <div class="contenedorDeProductos">
-                <img class="imgProducto" src="../img/productos/cartuchera.jpg" alt="Foto de cartuchera">
-            <a href="../paginas/pedidos.html" target="_blank"><p>Cartuchera</p> </a></div>
-    
-            <div class="contenedorDeProductos">
-                <img class="imgProducto" src="../img/productos/chauLata.jpg" alt="imagen de chau lata">
-                <a href="../paginas/pedidos.html" target="_blank"><p>Set matero "Chau lata"</p> </a></div>
-    
-            <div class="contenedorDeProductos">
-                <img class="imgProducto" src="../img/productos/gorro.jpg" alt=" imagen de gorro">
-                <a href="../paginas/pedidos.html" target="_blank"><p>Gorro</p></a>
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
-        
-            <div class="contenedorDeProductos">
-                <img class="imgProducto" src="../img/productos/billetera.jpg" alt=" imagen de billetera">
-               <a href="../paginas/pedidos.html" target="_blank"><p>Billetera</p></a> </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../img/productos/piluso.jpg" class="d-block w-100" alt="piluso">
+              </div>
+              <div class="carousel-item">
+                <img src="../img/productos/chauLata.jpg" class="d-block w-100" alt="Chau lata">
+              </div>
+              <div class="carousel-item">
+                <img src="../img/productos/portabotella.jpg" class="d-block w-100" alt="porta botella"> 
+                </div>
             </div>
-        <div class="productos">
-            <div class="contenedorDeProductos">
-                <img class="imgProducto" src="../img/productos/bolso.jpg" alt=" imagen de Bolso">
-                <a href="../paginas/pedidos.html" target="_blank"><p>Bolso</p></a> </div>
-
-            <div class="contenedorDeProductos">
-                <img class="imgProducto" src="../img/productos/cartucheraGrande.jpg" alt=" imagen de cartuchera grande">
-                <a href="../paginas/pedidos.html" target="_blank"><p>Cartuchera grande</p></a></div>
-
-                <div class="contenedorDeProductos">
-                    <img class="imgProducto" src="../img/productos/catucheraAbierta.jpg" alt=" imagen de cartuchera grande abierta">
-                   <a href="../paginas/pedidos.html" target="_blank"><p>Cartuchera Grande</p></a> </div> 
-
-            <div class="contenedorDeProductos">
-                <img class="imgProducto" src="../img/productos/cartucheraRosa.jpg" alt=" imagen de cartuchera rosa">
-                <a href="../paginas/pedidos.html" target="_blank"><p>Cartuchera Rosa</p></a></div>
-            </div>
-
-            <div class="productos">
-            <div class="contenedorDeProductos">
-                <img class="imgProducto" src="../img/productos/portabotella.jpg" alt=" imagen de porta botella">
-                
-               <a href="../paginas/pedidos.html" target="_blank"><p>Porta botella</p></a></div>
-            <div class="contenedorDeProductos">
-                <img class="imgProducto" src="../img/productos/portaCelular.jpg" alt=" imagen de porta celular">
-                
-                <a href="../paginas/pedidos.html" target="_blank"><p>Porta celular</p></a></div>
-        </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+       
     </main>
         
         <a class="irArriba" href="#">Ir arriba</a>
