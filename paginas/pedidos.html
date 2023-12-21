@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choleley</title>
+    <!--CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../estilo/estilo.css">
+    <link rel="shortcut icon" href="../img/logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+   
+
+</head>
+<body>
+    <header>
+        <img class="logo" src="../img/logo.jpg" alt="Logo de Choleley">
+        <nav class="navbar">
+            <ul class="menu">
+                <li class="menu__item active">
+                    <a href="../index.html">Inicio</a>
+                </li>
+                <li class="menu__item">
+                    <a href="./mihistoria.html">Quien soy</a>
+                </li>
+                <li class="menu__item">
+                    <a href="#contacto">Contacto</a>
+                </li>
+                <li class="menu__item">
+                    <a href="./pedidos.html">Pedidos</a>
+                </li>
+                <li class="menu__item">
+                    <a href="./productos.html">Productos</a>
+                </li>
+                <li class="menu__item">
+                    <a href="./taller.html">Taller</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1> Choleley creaciones con amor</h1>
+        <h2> Pedidos</h2>
+<section class="form">
+    <form id="formulario">
+        <label for="Nombre"> 
+            Nombre
+            <input type="text" id="Nombre" required placeholder="Ecribir aqui">
+        </label>
+        
+        <label for="Apellido"> 
+            Apellido
+            <input type="text" id="Apellido" required placeholder="Ecribir aqui">
+        </label>
+        
+        <label for="DNI"> 
+            DNI
+            <input type="number" id="DNI" required placeholder="Escribir aqui">
+        </label>   
+
+        <label for="Email"> 
+            Email
+            <input type="email" id="Email" required placeholder="Ecribir aqui">
+        </label>  
+        
+        <label for="mensaje"> 
+            Mensaje
+            <textarea class="textarea" id="Mensaje" cols="30" rows="10" placeholder="Descripcion del producto requerido, color y tipo de tela...."></textarea>
+        </label>
+        </form>
+
+    <h4> <p> Elegi el producto que necesitas </p></h4>
+    <div class="seleccion">
+        <label for="1"> 
+            <input type="radio" name="productos" id="1"> Cartuchera
+        </label>
+
+        <label for="1"> 
+            <input type="radio" name="productos" id="2">Gorro
+        </label> 
+
+        <label for="1"> 
+            <input type="radio" name="productos" id="2">Chau lata
+        </label>
+    </div>
+   
+    <form>
+        <input type="submit" value="Realizar pedidoo"/>
+
+        <input type="reset" value="Borrar"/>
+    </form>
+</section>
+        
+    </main>
+    <a class="irArriba" href="#">Ir arriba</a>
+
+    <footer id="contacto"> 
+        <h3> Choleley creaciones - todos los derechos reservados</h3>
+        <div class="contacto">
+        <h4 class="contacto__encabezado"> Contacto</h4>
+            <a class="contacto__logo" href="https://wa.me/c/5492996280373" target="_blank"><i class="bi bi-whatsapp"></i></a> 
+            <a class="contacto__logo" href="https://instagram.com/choleleycrea?igshid=bDhycm80cGwyaHh5"target="_blank" > <i class="bi bi-instagram"></i></a>
+            <a class="contacto__logo" href="https://www.facebook.com/Choleleycrea?mibextid=9R9pXO" target="_blank" > <i class="bi bi-facebook"></i> </a>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+body {
+    background-color:  rgb(255, 229, 236);
+}
+
+/*abre header*/
+header {
+    background-color:  rgb(255, 229, 236);
+    display: flex;
+    gap: 20px;
+    grid-gap: 20px;
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    width: 100px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+    grid-gap: 10px;
+}
+
+.menu__item a {
+    color: black;
+    text-decoration: none;
+}
+
+.menu__item.active a,
+.menu__item a:hover {
+    text-decoration: underline double;
+    background-color:  rgb(255, 163, 165);
+}
+/*Cierra header*/
+
+/*Abre Index*/
+/*Abre presentacion*/
+.presentacion {
+    height: 80vh;
+    background-image: url("../img/productos/productosFondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-inline: 250px;
+}
+
+.presentacion__cuerpo {
+    background-color: rgba(200, 182, 255, 0.545);
+    text-align: center;
+    
+}
+
+.presentacion__encabezado {
+    color: rgba(0, 0, 0, 0.793);
+    background-color:  rgba(200, 182, 255);
+    padding-inline: 15px;
+}
+
+.presentacion__texto {
+    color: rgba(0, 0, 0, 0.793);
+    text-align: center;
+    font-weight: 500;
+}
+
+.presentacion__descripcion li{
+    color: rgba(0, 0, 0, 0.793);
+    font-size: 14px;
+    font-weight: 700;
+    list-style-type: none;
+}
+
+/*Cierra presentacion*/
+/*Abre invitacion*/
+
+.invitciones {
+    padding: 60px;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+.tarjetitas {
+    padding: 60px;
+    display: flex;
+    gap: 30px;
+}
+
+.tarjetita {
+    background-color:  rgb(255, 179, 198);
+    border-radius: 30px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+}
+
+.informacion {
+    padding: 0 20px 20px 20px;
+}
+
+.tarjetita__imagen {
+    max-width: 100%;
+}
+
+.tarjetita__boton, a:hover
+{
+    background-color: rgba(255, 134, 200, 1);
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+.tarjetita__imagen,
+.tarjetita__titulo,
+.tarjetita__texto{
+   margin-bottom: 10px;
+}
+/*Cierra invitacion*/
+/*Cierra Index*/
+
+/*Abre Mi historia*/
+.miHistoria{
+    background-color:  rgb(255, 179, 198);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    
+}
+.miHistoriaTexto {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding-inline: 250px;
+}
+
+/*Cierra Mi historia*/
+
+/*Abre ir arriba*/
+.irArriba{
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    background-color: rgba(255, 134, 200, 0.516);
+    border-radius: 10px;
+    color: black;
+    text-decoration: none;
+}
+/*Cierra ir arriba*/
+/*Abre footer*/
+footer{
+    display: flex;
+    margin-top: 10px;
+    background-color:  rgb(255, 179, 198);
+    color: rgba(0, 0, 0, 0.793);
+    width: 100%;
+    justify-content: space-around;
+}
+.contacto{
+text-align: right;
+}
+.contacto__encabezado {
+display: inline-block;
+}
+.contacto__logo{
+color: black;
+text-decoration: none;
+}
+/*Cierra footer*/
