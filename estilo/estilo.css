@@ -27,6 +27,7 @@ header {
     display: flex;
     align-items: center;
     width: 100%;
+    
 }
 
 .menu {
@@ -162,6 +163,29 @@ header {
 }
 
 /*Cierra Mi historia*/
+/*Abre productos*/
+.productos__menu{
+    z-index: 1;
+}
+.productos,
+ .productos__cuerpo{
+    display: flex;
+   text-align: center;
+    flex-direction: column;
+    padding-inline: 250px;
+    background-color: rgba(255, 134, 200, 0.404);
+}
+ a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.793);
+    background-color: rgba(255, 134, 200, 0.516);
+
+}
+.carrusel{
+    max-width: 100vh; 
+    margin: 0 auto; 
+}
+/*Cierra productos*/
 
 /*Abre ir arriba*/
 .irArriba{
