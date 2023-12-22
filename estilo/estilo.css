@@ -10,7 +10,7 @@ body {
 }
 
 /*abre header*/
-.header__index{
+header{
     background-color:  rgb(255, 229, 236);
     display: flex;
     gap: 20px;
@@ -147,22 +147,27 @@ body {
     background-color:  rgb(255, 179, 198);
     border-radius: 30px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row-reverse;
     gap: 10px;
     flex: 1;
     justify-content: center;
     align-items: center;
-    
+ 
+}
+.miHistoria{
+   width: 100%;
 }
 .miHistoriaTexto {
    display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: center;
+   border-radius: 30px;
    background-color: rgba(255, 134, 200, 0.516);
 }
 
 /*Cierra Mi historia*/
+
 /*Abre productos*/
 .productos__menu{
     z-index: 1;
@@ -197,21 +202,45 @@ body {
 }
 .modalidad{
     background-color:  rgba(255, 134, 200, 0.516);
-    
+   
 }
 .flayer{
     width: 300px; 
 }
+.form__taller {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.modalidad__titulo{
+    background-color:  rgba(255, 134, 200, 0.842);
+}
 
 /*cierra taller*/
+
+/*Abre pedidos*/
+.main__pedidos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.encabezado__pedidos{
+    background-color: rgba(200, 182, 255, 0.545);
+    text-align: center;
+    border-radius: 25px;
+    margin: 15px;
+}
 
 /*abre forms*/
 
 .form{
     background-color: rgb(200, 182, 255);
-    display: inline-block;
-    
-   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 450px; 
+    border-radius: 25px;
 }
 label {
     display: block;
@@ -244,6 +273,8 @@ label {
 }
 
 /*cierra forms*/
+/*Cierra pedidos*/
+
 
 /*Abre ir arriba*/
 .irArriba{
@@ -276,3 +307,6 @@ color: black;
 text-decoration: none;
 }
 /*Cierra footer*/
+
+/*Responsive*/
+@media 
