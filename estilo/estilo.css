@@ -186,9 +186,17 @@ header{
     background-color: rgba(255, 134, 200, 0.516);
 
 }
-.carrusel{
+.contenedor__carrusel{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    
+}
+.carrusel__productos{
     max-width: 100vh; 
-    margin: 0 auto; 
+   
+    border: 8px solid rgb(255, 179, 198);
+    margin: 15px;
+    
 }
 /*Cierra productos*/
 
@@ -290,18 +298,19 @@ label {
 /*Abre footer*/
 footer{
     display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-end;
+    align-items: center;
     margin-top: 10px;
     background-color:  rgb(255, 179, 198);
     color: rgba(0, 0, 0, 0.793);
     width: 100%;
     justify-content: space-around;
 }
-.contacto{
-text-align: right;
-}
-.contacto__encabezado {
-display: inline-block;
-}
+
+
 .contacto__logo{
 color: black;
 text-decoration: none;
@@ -309,4 +318,23 @@ text-decoration: none;
 /*Cierra footer*/
 
 /*Responsive*/
-@media 
+@media (max-width: 986px){
+
+    .contenedor__carrusel {
+        display: grid;
+        grid-template-columns: auto auto;
+        border: none;
+        width: 100%;
+    
+    }
+    .productos h1 h2 h3{
+    font-size: xx-large;
+}
+.footer 
+{
+    display: flex;
+    flex-direction: row;
+    font-size: small;
+}
+}
+
