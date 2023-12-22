@@ -187,6 +187,64 @@ body {
 }
 /*Cierra productos*/
 
+/*abre taller*/
+
+.taller__cuerpo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.modalidad{
+    background-color:  rgba(255, 134, 200, 0.516);
+    
+}
+.flayer{
+    width: 300px; 
+}
+
+/*cierra taller*/
+
+/*abre forms*/
+
+.form{
+    background-color: rgb(200, 182, 255);
+    display: inline-block;
+    
+   
+}
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: rgb(255, 105, 235);
+    
+}
+.textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 3px solid rgb(151, 136, 151);
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.botones  textarea{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 3px solid rgb(151, 136, 151);
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.seleccion{
+    display: inline;
+}
+
+/*cierra forms*/
+
 /*Abre ir arriba*/
 .irArriba{
     position: fixed;
