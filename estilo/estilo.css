@@ -175,12 +175,10 @@ header{
 
 .productos {
     display: flex;
-   text-align: center;
     flex-direction: column;
     align-items: center;
-    padding-inline: 250px;
-    background-color: rgba(255, 134, 200, 0.404);
 }
+
 .productos__curepo {
     background-color: rgba(200, 182, 255, 0.545);
     text-align: center;
@@ -327,23 +325,13 @@ text-decoration: none;
 
 /*Responsive*/
 @media (max-width: 320px){
-
+    
     .contenedor__carrusel {
         display: grid;
         grid-template-columns: auto auto;
         border: none;
         width: 100%;
-    
     }
+}
    
-.footer 
-{
-    display: flex;
-    flex-direction: row;
-    font-size: small;
-}
-.tarjetitas{
-    width: auto;
-}
-}
 
