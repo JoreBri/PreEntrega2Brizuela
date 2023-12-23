@@ -192,7 +192,6 @@ header{
 
 }
 .contenedor__carrusel{
-    width: 1280px;
     display: grid;
     grid-template-columns: auto auto auto auto;
   
@@ -330,12 +329,18 @@ text-decoration: none;
 /*Cierra footer*/
 
 /*Responsive*/
-@media (max-width: 320px){
+@media (max-width: 350px){
+
+    .contenedor__carrusel {
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width: 900px){
 
     .contenedor__carrusel {
         display: grid;
         grid-template-columns: auto auto;
-        width: 100%;
     }
 }
    
