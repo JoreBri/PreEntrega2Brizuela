@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+* body {
+  background-color: rgb(255, 229, 236);
+}
+
+header {
+  background-color: rgb(255, 229, 236);
+  display: flex;
+  gap: 20px;
+  grid-gap: 20px;
+  position: sticky;
+  top: 0;
+}
+header .logo {
+  width: 100px;
+}
+header .navbar {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.menu {
+  display: flex;
+  list-style-type: none;
+  gap: 10px;
+  grid-gap: 10px;
+}
+.menu .menu__item a {
+  color: black;
+  text-decoration: none;
+}
+.menu .menu__item.active a,
+.menu .menu__item a:hover {
+  -webkit-text-decoration: underline double;
+          text-decoration: underline double;
+  background-color: rgb(255, 163, 165);
+}
+
+.invitciones {
+  padding: 60px;
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.tarjetitas {
+  padding: 60px;
+  display: flex;
+  gap: 30px;
+}
+.tarjetitas .tarjetita {
+  background-color: rgb(255, 179, 198);
+  border-radius: 30px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1;
+}
+.tarjetitas .informacion {
+  padding: 0 20px 20px 20px;
+}
+.tarjetitas .tarjetita__imagen {
+  max-width: 100%;
+}
+.tarjetitas .tarjetita__boton, .tarjetitas a:hover {
+  background-color: rgb(255, 134, 200);
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+}
+.tarjetitas .tarjetita__imagen,
+.tarjetitas .tarjetita__titulo,
+.tarjetitas .tarjetita__texto {
+  margin-bottom: 10px;
+}
+
+.informacion {
+  padding: 0 20px 20px 20px;
+}
+
+.tarjetita__imagen {
+  max-width: 100%;
+}
+
+.tarjetita__boton, a:hover {
+  background-color: rgb(255, 134, 200);
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.tarjetita__imagen,
+.tarjetita__titulo,
+.tarjetita__texto {
+  margin-bottom: 10px;
+}
+
+.presentacion__cuerpo {
+  background-color: rgba(255, 179, 198, 0.548);
+  text-align: center;
+}
+.presentacion__cuerpo .presentacion__encabezado {
+  color: rgba(0, 0, 0, 0.793);
+  background-color: rgb(255, 179, 198);
+  padding-inline: 15px;
+}
+.presentacion__cuerpo .presentacion__texto {
+  color: rgba(0, 0, 0, 0.793);
+  text-align: center;
+  font-weight: 500;
+}
+.presentacion__cuerpo .presentacion__descripcion li {
+  color: rgba(0, 0, 0, 0.793);
+  font-size: 14px;
+  font-weight: 700;
+  list-style-type: none;
+}
+
+.productos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.productos__curepo {
+  background-color: rgb(255, 179, 198);
+  text-align: center;
+  border-radius: 25px;
+  margin: 15px;
+}
+.productos__curepo a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.793);
+  background-color: rgb(255, 134, 200);
+}
+
+.taller__cuerpo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.taller__cuerpo .taller__encabezado {
+  background-color: rgb(255, 179, 198);
+  text-align: center;
+  border-radius: 25px;
+  margin: 15px;
+}
+
+.irArriba {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  background-color: rgb(255, 134, 200);
+  border-radius: 10px;
+  color: black;
+  text-decoration: none;
+}/*# sourceMappingURL=styles.css.map */
