@@ -1,5 +1,5 @@
-.form, .form__taller {
-    background-color: rgb(255, 179, 198);
+.form {
+    background-color: $cherry-blossom-pink;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -18,7 +18,7 @@
     .textarea {
         display: flex;
         width: 100%;
-        padding: 10px;
+        padding: 0 10px 10px 10px;
         border: 3px solid $ultra-pink;
         border-radius: 5px;
         font-size: 16px;

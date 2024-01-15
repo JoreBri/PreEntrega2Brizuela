@@ -57,6 +57,28 @@ main {
   align-items: center;
 }
 
+.modalidad {
+  background-color: rgba(255, 134, 200, 0.516);
+  margin: 2rem;
+  padding: 2rem;
+  border-radius: 30px;
+}
+
+.flayer {
+  width: 300px;
+}
+
+.form__taller {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modalidad__titulo {
+  background-color: rgba(255, 134, 200, 0.842);
+}
+
 .presentacion {
   height: 80vh;
   background-image: url("../img/productos/productosFondo.jpg");
@@ -141,11 +163,11 @@ main {
   justify-content: center;
   align-items: center;
   border-radius: 30px;
-  background-color: rgba(255, 134, 200, 0.516);
+  background-color: rgb(255, 179, 198);
 }
 
 .encabezado__pedidos {
-  background-color: rgba(200, 182, 255, 0.545);
+  background-color: rgb(255, 179, 198);
   text-align: center;
   border-radius: 25px;
   margin: 15px;
@@ -226,7 +248,7 @@ main {
   margin: 15px;
 }
 
-.form, .form__taller {
+.form {
   background-color: rgb(255, 179, 198);
   display: flex;
   justify-content: center;
@@ -235,7 +257,7 @@ main {
   width: 450px;
   border-radius: 25px;
 }
-.form label, .form__taller label {
+.form label {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -243,16 +265,16 @@ main {
   margin-bottom: 5px;
   color: rgb(255, 105, 235);
 }
-.form .textarea, .form__taller .textarea {
+.form .textarea {
   display: flex;
   width: 100%;
-  padding: 10px;
+  padding: 0 10px 10px 10px;
   border: 3px solid rgb(255, 105, 235);
   border-radius: 5px;
   font-size: 16px;
   margin-bottom: 10px;
 }
-.form .botones textarea, .form__taller .botones textarea {
+.form .botones textarea {
   display: flex;
   width: 100%;
   padding: 10px;

@@ -56,7 +56,7 @@
 }
 
 .miHistoria__header, .miHistoria{
-    background-color:  rgb(255, 179, 198);
+    background-color: $cherry-blossom-pink;
     border-radius: 30px;
     display: flex;
     flex-direction: column;
@@ -66,21 +66,20 @@
     align-items: center;
     .miHistoria{
         width: 100%;
-     }
-     .miHistoriaTexto {
+}
+.miHistoriaTexto {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         border-radius: 30px;
-        background-color: rgba(255, 134, 200, 0.516);
-     }
- 
+        background-color: $cherry-blossom-pink;}
 }
 .encabezado__pedidos{
-    background-color: rgba(200, 182, 255, 0.545);
+    background-color: $cherry-blossom-pink;
     text-align: center;
     border-radius: 25px;
     margin: 15px;
 }
+
 
