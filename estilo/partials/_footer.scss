@@ -1,0 +1,23 @@
+footer{
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 10px;
+    background-color:  rgb(255, 179, 198);
+    color: rgba(0, 0, 0, 0.793);
+    width: 100%;
+    justify-content: space-around;
+}
+.contacto__logos{
+    display:flex;
+    justify-content: center;
+    justify-content: space-between;
+    .contacto__logo{
+        color: black;
+        text-decoration: none;
+        }
+}
+

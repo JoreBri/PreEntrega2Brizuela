@@ -1,0 +1,13 @@
+
+.productos__menu{
+    z-index: 1;
+}
+.contenedor__carrusel{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    .carrusel__productos{
+        max-width: 100vh; 
+        border: 8px solid $cherry-blossom-pink;
+        margin: 15px
+}
+}

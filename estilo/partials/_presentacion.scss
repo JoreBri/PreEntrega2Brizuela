@@ -1,0 +1,12 @@
+.presentacion {
+    height: 80vh;
+    background-image: url("../img/productos/productosFondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-inline: 250px;
+}

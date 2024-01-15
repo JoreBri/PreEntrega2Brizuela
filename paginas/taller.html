@@ -11,39 +11,40 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
 </head>
 <body>
+    <!--Abre header-->
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
+                <a href="../index.html">
                 <img class="logo" src="../img/logo.jpg" alt="Logo de Choleley">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav menu">
-                  <li class="nav-item menu__item">
+                    <li class="nav-item menu__item">
                     <a class="nav-link " aria-current="page" href="../index.html">Inicio</a>
-                  </li>
-                  <li class="nav-item menu__item">
+                </li>
+                <li class="nav-item menu__item">
                     <a class="nav-link" href="./mihistoria.html">Quien soy</a>
-                  </li>
-                  <li class="nav-item menu__item">
-                    <a class="nav-link" href="#contacto">Contacto</a>
-                  </li>
-                  <li class="nav-item menu__item">
+                </li>
+                <li class="nav-item menu__item">
                     <a class="nav-link" href="./pedidos.html">Pedidos</a>
-                  </li>
-                  <li class="nav-item menu__item">
+                </li>
+                <li class="nav-item menu__item">
                     <a class="nav-link" href="./productos.html">Productos</a>
-                  </li>
-                  <li class="nav-item menu__item active">
+                </li>
+                <li class="nav-item menu__item active">
                     <a class="nav-link" href="./taller.html">Taller</a>
-                  </li>
-                  
+                </li>
+
                 </ul>
-              </div>
             </div>
-          </nav>
+            </div>
+        </nav>
     </header>
+    <!--Cierre header-->
+    <!--Abre main-->
     <main>
         <div class="taller__cuerpo">
             
@@ -60,7 +61,7 @@
                     <li>  
                         <a href="#seccion2">Costura creativa online </a> 
                     </li>
-              
+
                     <li>  
                         <a href="#formulario">Inscripcion al taller </a>
                     </li>
@@ -69,7 +70,7 @@
         </div>
 
         <section class="modalidad" id="seccion1">
-           <h3 class="modalidad__titulo"> Costura creativa presencial</h3> 
+            <h3 class="modalidad__titulo"> Costura creativa presencial</h3> 
             <p class="texto"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil cum nobis excepturi dolore in officia commodi soluta amet nostrum ab dolor dolorem ipsum nulla ut, ea quia. Laboriosam, aperiam ullam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, sit temporibus? Iusto ut facilis numquam autem consequatur qui, distinctio ullam culpa corrupti. Deserunt minus labore quae beatae odit asperiores modi!</p>
         </section>
     
@@ -77,7 +78,7 @@
             <h3 class="modalidad__titulo"> Costura creativa online </h3>
             <p class="texto"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto culpa necessitatibus, obcaecati harum perferendis quisquam ad modi beatae in. Et in asperiores architecto recusandae sed, voluptatibus delectus eveniet aperiam impedit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero velit, corporis illum qui repellendus numquam itaque omnis reiciendis unde, dolore repudiandae eaque doloremque minima labore quis sequi, at magni nesciunt!</p>
     </section> 
-  
+<!--Abre form-->
     <section class="form__taller"  id="inscripcion"> 
         <h1>  Inscripcion al taller</h1> 
         <section class="form">
@@ -106,17 +107,20 @@
                 Mensaje
                 <textarea class="textarea" id="Mensaje" cols="30" rows="10" placeholder="Mensaje"></textarea>
             </label>
-            <div class="seleccion">
-                <h4> <p> Selecciona la modalidad del curso </p></h4>
-            <label class="seleccion"  for="1"> 
-                <input type="radio" name="curso" id="1"> Presencial
-            </label> 
-           </div>
-           <div class="seleccion">
-            <label class="seleccion" for="2"> 
-                <input type="radio" name="curso" id="2">Online
-            </label>
+            <div >
+                <div >
+                    <h4> <p> Selecciona la modalidad del curso </p></h4>
+                <label  for="1"> 
+                    <input type="radio" name="curso" id="1"> Presencial
+                </label> 
             </div>
+            <div >
+                <label class="seleccion" for="2"> 
+                    <input type="radio" name="curso" id="2">Online
+                </label>
+                </div>   
+            </div>
+            
             <div>
                 <form class="botones">
                     <input type="submit" value="Enviar formulario"/>
@@ -125,21 +129,21 @@
                     
                 </form>
             </div>
-            
-
     </section>
-    
     </main>
+    <!--Cierra main-->
     <a class="irArriba" href="#">Ir arriba</a>
 
     <footer id="contacto"> 
         <h3> Choleley creaciones - todos los derechos reservados</h3>
         <div class="contacto">
-        <h4 class="contacto__encabezado"> Contacto</h4>
+            <h4 class="contacto__encabezado"> Contacto</h4>
+            <div class="contacto__logos">
             <a class="contacto__logo" href="https://wa.me/c/5492996280373" target="_blank"><i class="bi bi-whatsapp"></i></a> 
             <a class="contacto__logo" href="https://instagram.com/choleleycrea?igshid=bDhycm80cGwyaHh5"target="_blank" > <i class="bi bi-instagram"></i></a>
             <a class="contacto__logo" href="https://www.facebook.com/Choleleycrea?mibextid=9R9pXO" target="_blank" > <i class="bi bi-facebook"></i> </a>
         </div>
+    </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>

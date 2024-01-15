@@ -1,0 +1,37 @@
+.form, .form__taller {
+    background-color: rgb(255, 179, 198);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 450px;
+    border-radius: 25px;
+    label {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-weight: bold;
+        margin-bottom: 5px;
+        color: $ultra-pink;
+        
+    }
+    .textarea {
+        display: flex;
+        width: 100%;
+        padding: 10px;
+        border: 3px solid $ultra-pink;
+        border-radius: 5px;
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    
+    .botones  textarea{
+        display: flex;
+        width: 100%;
+        padding: 10px;
+        border: 3px solid $ultra-pink;
+        border-radius: 5px;
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+}
