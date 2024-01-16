@@ -25,17 +25,24 @@
         margin-bottom: 10px;
     }
     
-    .botones  textarea{
+    // .botones  textarea{
+    //     display: flex;
+    //     width: 100%;
+    //     padding: 10px;
+    //     border: 3px solid $ultra-pink;
+    //     border-radius: 5px;
+    //     font-size: 16px;
+    //     margin-bottom: 10px;
+    // }
+
+    .botones {
         display: flex;
+        justify-content: center;
         width: 100%;
-        padding: 10px;
-        border: 3px solid $ultra-pink;
-        border-radius: 5px;
-        font-size: 16px;
         margin-bottom: 10px;
     }
 
-    .botones {
+    .botones-t {
         display: flex;
         justify-content: center;
         width: 100%;
