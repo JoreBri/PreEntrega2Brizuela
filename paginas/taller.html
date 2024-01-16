@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choleley</title>
+    <!--CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../estilo/styles.css">
+    <link rel="shortcut icon" href="../img/logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <!--Abre header-->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a href="../index.html">
+                <img class="logo" src="../img/logo.jpg" alt="Logo de Choleley">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav menu">
+                    <li class="nav-item menu__item">
+                    <a class="nav-link " aria-current="page" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item menu__item">
+                    <a class="nav-link" href="./mihistoria.html">Quien soy</a>
+                </li>
+                <li class="nav-item menu__item">
+                    <a class="nav-link" href="./pedidos.html">Pedidos</a>
+                </li>
+                <li class="nav-item menu__item">
+                    <a class="nav-link" href="./productos.html">Productos</a>
+                </li>
+                <li class="nav-item menu__item active">
+                    <a class="nav-link" href="./taller.html">Taller</a>
+                </li>
+
+                </ul>
+            </div>
+            </div>
+        </nav>
+    </header>
+    <!--Cierre header-->
+    <!--Abre main-->
+    <main>
+        <div class="taller__cuerpo">
+            
+            <div class="taller__encabezado">
+                <h1> Choleley creaciones con amor</h1>
+                <h2 class="title">Taller de Costura creativa</h2>    
+            </div>
+            <img class="flayer" src="../img/taller.png" alt="flayer" title="flayer">
+            <div class="taller">
+                <ul >  
+                    <li>
+                        <a href="#seccion1">Costura creativa presencial </a>
+                    </li>
+                    <li>  
+                        <a href="#seccion2">Costura creativa online </a> 
+                    </li>
+
+                    <li>  
+                        <a href="#formulario">Inscripcion al taller </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <section class="modalidad" id="seccion1">
+            <h3 class="modalidad__titulo"> Costura creativa presencial</h3> 
+            <p class="texto"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil cum nobis excepturi dolore in officia commodi soluta amet nostrum ab dolor dolorem ipsum nulla ut, ea quia. Laboriosam, aperiam ullam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, sit temporibus? Iusto ut facilis numquam autem consequatur qui, distinctio ullam culpa corrupti. Deserunt minus labore quae beatae odit asperiores modi!</p>
+        </section>
+    
+        <section class="modalidad"  id="seccion2"> 
+            <h3 class="modalidad__titulo"> Costura creativa online </h3>
+            <p class="texto"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto culpa necessitatibus, obcaecati harum perferendis quisquam ad modi beatae in. Et in asperiores architecto recusandae sed, voluptatibus delectus eveniet aperiam impedit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero velit, corporis illum qui repellendus numquam itaque omnis reiciendis unde, dolore repudiandae eaque doloremque minima labore quis sequi, at magni nesciunt!</p>
+    </section> 
+<!--Abre form-->
+    <section class="form"  id="inscripcion"> 
+        <h1>  Inscripcion al taller</h1> 
+        <section class="form">
+        <form id="formulario">
+            <label for="Nombre"> 
+                Nombre
+                <input type="text" id="Nombre" required placeholder="Ecribir aqui">
+            </label>
+            
+            <label for="Apellido"> 
+                Apellido
+                <input type="text" id="Apellido" required placeholder="Ecribir aqui">
+            </label>
+            
+            <label for="Email"> 
+                Email
+                <input type="email" id="Email" required placeholder="Ecribir aqui">
+            </label>
+            
+            <label for="DNI"> 
+                DNI
+                <input type="number" id="DNI" required placeholder="Escribir aqui">
+            </label>     
+            
+            <label for="mensaje"> 
+                Mensaje
+                <textarea class="textarea" id="Mensaje" cols="30" rows="10" placeholder="Mensaje"></textarea>
+            </label>
+            <div >
+                <div >
+                    <h4> <p> Selecciona la modalidad del curso </p></h4>
+                <label  for="1"> 
+                    <input type="radio" name="curso" id="1"> Presencial
+                </label> 
+            </div>
+            <div >
+                <label class="seleccion" for="2"> 
+                    <input type="radio" name="curso" id="2">Online
+                </label>
+                </div>   
+            </div>
+            
+            <div>
+                <div class="botones">
+                    <input type="submit" value="Enviar formulario"/>
+                
+                    <input type="reset" value="Borrar formulario"/>
+                    
+                </div>
+            </div>
+        </form>
+    </section>
+    </main>
+    <!--Cierra main-->
+    <a class="irArriba" href="#">Ir arriba</a>
+
+    <footer id="contacto"> 
+        <h3> Choleley creaciones - todos los derechos reservados</h3>
+        <div class="contacto">
+            <h4 class="contacto__encabezado"> Contacto</h4>
+            <div class="contacto__logos">
+            <a class="contacto__logo" href="https://wa.me/c/5492996280373" target="_blank"><i class="bi bi-whatsapp"></i></a> 
+            <a class="contacto__logo" href="https://instagram.com/choleleycrea?igshid=bDhycm80cGwyaHh5"target="_blank" > <i class="bi bi-instagram"></i></a>
+            <a class="contacto__logo" href="https://www.facebook.com/Choleleycrea?mibextid=9R9pXO" target="_blank" > <i class="bi bi-facebook"></i> </a>
+        </div>
+    </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
