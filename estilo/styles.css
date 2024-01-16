@@ -79,6 +79,16 @@ main {
   background-color: rgba(255, 134, 200, 0.842);
 }
 
+.tt-b {
+  display: flex;
+}
+.tt-b .botones-tt {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
 .presentacion {
   height: 80vh;
   background-image: url("../img/productos/productosFondo.jpg");
@@ -274,13 +284,25 @@ main {
   font-size: 16px;
   margin-bottom: 10px;
 }
+.form .botones textarea {
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  border: 3px solid rgb(255, 105, 235);
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
 .form .botones {
   display: flex;
   justify-content: center;
   width: 100%;
   margin-bottom: 10px;
 }
-.form .botones-t {
+.form .tt-b {
+  display: flex;
+}
+.form .tt-b .botones-tt {
   display: flex;
   justify-content: center;
   width: 100%;
