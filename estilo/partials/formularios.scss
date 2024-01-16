@@ -1,5 +1,5 @@
 .form {
-    background-color: $cherry-blossom-pink;
+    background-color: rgba(255, 179, 198, 1);
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -12,28 +12,28 @@
         align-items: center;
         font-weight: bold;
         margin-bottom: 5px;
-        color: $ultra-pink;
-        
+        color: rgba(255, 105, 235, 1);
+
     }
     .textarea {
         display: flex;
         width: 100%;
         padding: 0 10px 10px 10px;
-        border: 3px solid $ultra-pink;
+        border: 3px solid rgba(255, 105, 235, 1);
         border-radius: 5px;
         font-size: 16px;
         margin-bottom: 10px;
     }
-    
-    // .botones  textarea{
-    //     display: flex;
-    //     width: 100%;
-    //     padding: 10px;
-    //     border: 3px solid $ultra-pink;
-    //     border-radius: 5px;
-    //     font-size: 16px;
-    //     margin-bottom: 10px;
-    // }
+
+    .botones  textarea{
+        display: flex;
+        width: 100%;
+        padding: 10px;
+        border: 3px solid rgba(255, 105, 235, 1);
+        border-radius: 5px;
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
 
     .botones {
         display: flex;
@@ -42,10 +42,13 @@
         margin-bottom: 10px;
     }
 
-    .botones-t {
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        margin-bottom: 10px;
+    .tt-b {
+        display:flex;
+        .botones-tt {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            margin-bottom: 10px;
+        }
     }
 }
