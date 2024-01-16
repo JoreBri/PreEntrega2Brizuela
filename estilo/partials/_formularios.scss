@@ -1,5 +1,5 @@
 .form {
-    background-color: rgba(255, 179, 198, 1);
+    background-color: $cherry-blossom-pink;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -12,14 +12,14 @@
         align-items: center;
         font-weight: bold;
         margin-bottom: 5px;
-        color: rgba(255, 105, 235, 1);
+        color: $ultra-pink;
 
     }
     .textarea {
         display: flex;
         width: 100%;
         padding: 0 10px 10px 10px;
-        border: 3px solid rgba(255, 105, 235, 1);
+        border: 3px solid $ultra-pink;
         border-radius: 5px;
         font-size: 16px;
         margin-bottom: 10px;
@@ -29,7 +29,7 @@
         display: flex;
         width: 100%;
         padding: 10px;
-        border: 3px solid rgba(255, 105, 235, 1);
+        border: 3px solid $ultra-pink;
         border-radius: 5px;
         font-size: 16px;
         margin-bottom: 10px;
@@ -49,6 +49,7 @@
             justify-content: center;
             width: 100%;
             margin-bottom: 10px;
+            justify-content: space-evenly
         }
     }
 }
