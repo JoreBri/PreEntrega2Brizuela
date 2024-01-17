@@ -5,3 +5,11 @@ a {
         background-color: $persian-pink;
     }
 }
+.tarjetita__boton {
+    a:hover{
+        background-color: $persian-pink;
+        border: none;
+        padding: 10px;
+        border-radius: 10px;
+    }
+}
