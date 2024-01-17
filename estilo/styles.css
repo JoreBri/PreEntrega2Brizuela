@@ -186,7 +186,7 @@ main {
   max-width: 100%;
 }
 .tarjetitas .tarjetita__boton {
-  background-color: rgb(255, 134, 200);
+  background-color: rgba(255, 134, 200, 0.441);
   border: none;
   padding: 10px;
   border-radius: 10px;
@@ -266,11 +266,11 @@ a {
   text-decoration: none;
 }
 a .productos__cuerpo {
-  background-color: rgb(255, 134, 200);
+  background-color: rgba(255, 134, 200, 0.441);
 }
 
 .tarjetita__boton a:hover {
-  background-color: rgb(255, 134, 200);
+  background-color: rgba(255, 134, 200, 0.441);
   border: none;
   padding: 10px;
   border-radius: 10px;
@@ -280,9 +280,9 @@ a .productos__cuerpo {
   position: fixed;
   bottom: 10px;
   left: 10px;
-  background-color: rgb(255, 134, 200);
+  background-color: rgba(255, 134, 200, 0.441);
   border-radius: 10px;
-  color: black;
+  color: rgba(0, 0, 0, 0.464);
   text-decoration: none;
 }
 
@@ -350,8 +350,8 @@ footer {
 }
 @media screen and (max-width: 450px) {
   .form {
-    padding: 15px;
-    margin: 15px;
+    padding: 0 auto;
+    margin: 0 auto;
   }
   input, textarea {
     margin-bottom: 15px;
