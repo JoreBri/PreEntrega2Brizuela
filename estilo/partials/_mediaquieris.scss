@@ -1,0 +1,32 @@
+@media (max-width: 900px){
+
+    .contenedor__carrusel {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .miHistoria {
+        margin: 30px;
+        display: flex;
+        flex-direction: column;
+    iframe{
+        width: 75%;
+        display: flex;
+        justify-content: center;
+    }
+    }
+   
+}
+
+
+@media (max-width: 350px){
+    .contenedor__carrusel {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    footer{
+        display: grid;
+        grid-template-columns: auto auto;
+        align-items: start;
+        h3 { font-size: 1rem;
+    }
+}}

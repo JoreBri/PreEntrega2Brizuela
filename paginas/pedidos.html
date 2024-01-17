@@ -56,30 +56,39 @@
 <section class="form">
     <form id="formulario">
         <label for="Nombre"> 
+          <div class="bg">
             Nombre
+          </div>
             <input type="text" id="Nombre" required placeholder="Ecribir aqui">
         </label>
         
-        <label for="Apellido"> 
+        <label for="Apellido">
+          <div class="bg">
             Apellido
+          </div>
             <input type="text" id="Apellido" required placeholder="Ecribir aqui">
         </label>
         
-        <label for="DNI"> 
+        <label for="DNI">
+          <div class="bg">
             DNI
+          </div>
             <input type="number" id="DNI" required placeholder="Escribir aqui">
         </label>   
 
-        <label for="Email"> 
+        <label for="Email">
+          <div class="bg">
             Email
+          </div>
             <input type="email" id="Email" required placeholder="Ecribir aqui">
         </label>  
         
-        <label for="mensaje"> 
+        <label for="mensaje">
+          <div class="bg">
             Mensaje
+          </div>
             <textarea class="textarea" id="Mensaje" cols="30" rows="10" placeholder="Descripcion del producto requerido, color y tipo de tela...."></textarea>
         </label>
-        </form>
 
     <h4> <p> Elegi el producto que necesitas </p></h4>
     <div class="seleccion">
@@ -95,11 +104,11 @@
             <input type="radio" name="productos" id="3">Chau lata
         </label>
     </div>
-   
-    <form>
-        <input type="submit" value="Realizar pedido"/>
+    <div class="botones">
+      <input type="submit" value="Realizar pedido"/>
 
-        <input type="reset" value="Borrar"/>
+      <input type="reset" value="Borrar pedido"/>
+    </div>
     </form>
 </section>
         
