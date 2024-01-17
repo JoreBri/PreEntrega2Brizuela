@@ -1,11 +1,13 @@
 .presentacion__cuerpo {
     background-color: rgba(255, 179, 198, 0.548);;
     text-align: center;
+    border-radius: 25px;
     .presentacion__encabezado {
         color: rgba(0, 0, 0, 0.793);
         background-color: $cherry-blossom-pink;
         padding-inline: 15px;
         font-weight: 900;
+        border-radius: 25px;
     }
     
     .presentacion__texto {
