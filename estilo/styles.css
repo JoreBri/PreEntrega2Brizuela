@@ -36,6 +36,12 @@ header .navbar {
   color: black;
   text-decoration: none;
 }
+.menu .Nb-logo {
+  -webkit-text-decoration: underline double;
+          text-decoration: underline double;
+  background-color: rgb(255, 163, 165);
+  border-radius: 10px;
+}
 .menu .menu__item.active a,
 .menu .menu__item a:hover {
   -webkit-text-decoration: underline double;
