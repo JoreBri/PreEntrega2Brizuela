@@ -1,6 +1,7 @@
-.presentacion {
+.img-bgnd {
     height: 80vh;
-    background-image: url(../);
+    min-width: 100%;
+    background-image: url("../img/productos/productosfondo.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -8,5 +9,5 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding-inline: 250px;
+    
 }
