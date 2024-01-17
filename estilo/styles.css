@@ -227,7 +227,6 @@ main {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  width: 450px;
   border-radius: 25px;
 }
 .form label {
@@ -326,16 +325,8 @@ footer {
     display: flex;
     justify-content: center;
   }
-  a {
-    color: #000;
-    text-decoration: none;
-  }
-  a:hover {
-    color: rgb(255, 105, 235);
-    text-decoration: none;
-  }
 }
-@media (max-width: 350px) {
+@media (max-width: 450px) {
   .contenedor__carrusel {
     display: grid;
     grid-template-columns: auto;
@@ -347,6 +338,23 @@ footer {
   }
   footer h3 {
     font-size: 1rem;
+  }
+}
+@media screen and (max-width: 900px) {
+  .form {
+    padding: 10px;
+  }
+  input, textarea {
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .form {
+    padding: 15px;
+    margin: 15px;
+  }
+  input, textarea {
+    margin-bottom: 15px;
   }
 }
 .presentacion {
