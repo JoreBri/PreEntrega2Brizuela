@@ -14,8 +14,17 @@
         justify-content: center;
     }
     }
-   
-}
+    a {
+        color: #000; 
+        text-decoration: none; 
+      }
+    
+     
+      a:hover {
+        color:$ultra-pink; 
+        text-decoration: none; 
+      }
+    }
 
 
 @media (max-width: 350px){
@@ -28,5 +37,4 @@
         grid-template-columns: auto auto;
         align-items: start;
         h3 { font-size: 1rem;
-    }
-}}
+    }}}
