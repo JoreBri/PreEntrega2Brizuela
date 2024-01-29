@@ -1,10 +1,23 @@
-.form {
+.contenedor__formulario{
     background-color: $cherry-blossom-pink;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     border-radius: 25px;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 25px auto;
+    .contenido__formulario{
+        display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px;
+    max-width: 600px;
+        margin: 20px auto;
+     padding: 25px auto;
+    }
     label {
         display: flex;
         flex-direction: column;
@@ -15,15 +28,26 @@
         .bg {
             background-color: $misty-rose;
         }
-    }
-    .textarea {
+       input {
+        border: 3px solid $ultra-pink;
         display: flex;
-        width: 100%;
         padding: 0 10px 10px 10px;
         border: 3px solid $ultra-pink;
         border-radius: 5px;
         font-size: 16px;
         margin-bottom: 10px;
+    }
+    }
+    .textarea {
+        display: flex;
+        padding: 0 10px 10px 10px;
+        border: 3px solid $ultra-pink;
+        border-radius: 5px;
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .selec{
+        padding: 0rem 3rem;
     }
 
     .botones {

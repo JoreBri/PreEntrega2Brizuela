@@ -84,78 +84,84 @@
             </p>
     </section> 
 <!--Abre form-->
-    <section class="form"  id="inscripcion" data-aos="zoom-out"> 
-        <h1>  Inscripcion al taller</h1> 
-        <section class="form">
-        <form id="formulario" class="form">
-            <label for="Nombre">
-                <div class="bg">
-                    Nombre
-                </div>
-                <input type="text" id="Nombre" required placeholder="Escribir aqui">
-            </label>
-            
-            <label for="Apellido">
-                <div class="bg">
-                    Apellido
-                </div>
-                <input type="text" id="Apellido" required placeholder="Escribir aqui">
-            </label>
-            
-            <label for="Email">
-                <div class="bg">
-                    Email
-                </div>
-                <input type="email" id="Email" required placeholder="Escribir aqui">
-            </label>
-            
-            <label for="DNI">
-                <div class="bg">
-                    DNI
-                </div>
-                <input type="number" id="DNI" required placeholder="Escribir aqui" min="0" oninput="validity.valid||(value='');">
-            </label>     
-            
-            <label for="mensaje">
-                <div class="bg">
-                    Mensaje
-                </div>
-                <textarea class="textarea" id="Mensaje" cols="30" rows="10" placeholder="Mensaje"></textarea>
-            </label>
-            <div >
-                <div >
-                    <h4> <p> Selecciona la modalidad del curso </p></h4>
-                <label  for="1"> 
-                    <input type="radio" name="curso" id="1"> Presencial
-                </label> 
-            </div>
-            <div >
-                <label class="seleccion" for="2"> 
-                    <input type="radio" name="curso" id="2">Online
+    <section class="contenedor__formulario"  id="inscripcion"   data-aos="zoom-out"> 
+        <div class="contenido__formulario"><h1>  Inscripcion al taller</h1> 
+            <form id="formulario">
+                <label for="Nombre">
+                    <div class="bg">
+                        Nombre
+                    </div>
+                    <div class="inf">
+                        <input type="text" id="Nombre" required placeholder="Escribir aqui">
+                    </div>
+                    
                 </label>
-                </div>   
-            </div>
-                <div class="botones">
-                    <input type="submit" value="Enviar formulario"/>
                 
-                    <input type="reset" value="Borrar formulario"/>
+                <label for="Apellido">
+                    <div class="bg">
+                        Apellido
+                    </div>
+                    <input type="text" id="Apellido" required placeholder="Escribir aqui">
+                </label>
+                
+                <label for="Email">
+                    <div class="bg">
+                        Email
+                    </div>
+                    <input type="email" id="Email" required placeholder="Escribir aqui">
+                </label>
+                
+                <label for="DNI">
+                    <div class="bg">
+                        DNI
+                    </div>
+    
+                    <input type="number" id="DNI" required placeholder="Escribir aqui" min="0" oninput="validity.valid||(value='');">
+                </label>     
+                
+                <label for="mensaje">
+                    <div class="bg">
+                        Mensaje
+                    </div>
+                    <textarea class="textarea" id="Mensaje" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                </label>
+                <div >
+                    <div >
+                        <h4> <p class="selec"> Selecciona la modalidad del curso </p></h4>
+                    <label  for="1"> 
+                        <input type="radio" name="curso" id="1"> Presencial
+                    </label> 
                 </div>
-        </form>
-        <!--Cierra form-->
+                <div >
+                    <label class="seleccion" for="2"> 
+                        <input type="radio" name="curso" id="2">Online
+                    </label>
+                    </div>   
+                </div>
+                    <div class="botones">
+                        <input type="submit" value="Enviar formulario"/>
+                    
+                        <input type="reset" value="Borrar formulario"/>
+                    </div>
+            </form>
+        </div>
     </section>
+        <!--Cierra form-->
+    
     </main>
     <!--Cierra main-->
     <a class="irArriba" href="#">Ir arriba</a>
     <!--Abre footer-->
     <footer>
         <div class="pie">
-            <h3> Choleley creaciones - todos los derechos reservados</h3>
+            <h3 class="h3footer"> Choleley creaciones - todos los derechos reservados</h3>
             <div class="contacto">
-            <h4 class="contacto__encabezado"> Contacto</h4>
-            <div class="contacto__logos">
-                <a class="contacto__logo" href="https://wa.me/c/5492996280373" target="_blank"><i class="bi bi-whatsapp"></i></a> 
-                <a class="contacto__logo" href="https://instagram.com/choleleycrea?igshid=bDhycm80cGwyaHh5"target="_blank" > <i class="bi bi-instagram"></i></a>
-                <a class="contacto__logo" href="https://www.facebook.com/Choleleycrea?mibextid=9R9pXO" target="_blank" > <i class="bi bi-facebook"></i> </a>
+                <h4 class="contacto__encabezado"> Contacto</h4>
+                <div class="contacto__logos">
+                    <a class="contacto__logo" href="https://wa.me/c/5492996280373" target="_blank"><i class="bi bi-whatsapp"></i></a> 
+                    <a class="contacto__logo" href="https://instagram.com/choleleycrea?igshid=bDhycm80cGwyaHh5"target="_blank" > <i class="bi bi-instagram"></i></a>
+                    <a class="contacto__logo" href="https://www.facebook.com/Choleleycrea?mibextid=9R9pXO" target="_blank" > <i class="bi bi-facebook"></i> </a>
+                </div>
             </div>
         </div>
       </footer>
