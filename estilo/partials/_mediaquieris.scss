@@ -4,9 +4,14 @@
         min-width: 100%;
         max-height: 70%;
     }
+
 }
 
-@media (max-width: 900px){
+@media (max-width: 1000px){
+    .tarjetitas{
+        display: flex;
+        flex-direction: column
+    }
 
     .img-bgnd {
         min-width: 100%;
@@ -39,7 +44,7 @@
         display: grid;
         grid-template-columns: auto;
     }
-    footer{
+    .pie{
         display: flex;
         align-items: center;
         flex-direction: column-reverse;
