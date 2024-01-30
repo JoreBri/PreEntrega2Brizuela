@@ -41,6 +41,7 @@ header .navbar {
           text-decoration: underline double;
   background-color: rgb(255, 163, 165);
   border-radius: 10px;
+  padding: 1rem;
 }
 
 main {
@@ -91,6 +92,8 @@ main {
   background-color: rgba(255, 179, 198, 0.548);
   text-align: center;
   border-radius: 25px;
+  padding: 10px;
+  margin: 25px;
 }
 .presentacion__cuerpo .presentacion__encabezado {
   color: rgba(0, 0, 0, 0.793);
@@ -114,12 +117,12 @@ main {
   flex-direction: column;
   align-items: center;
 }
-
-.productos__curepo {
+.productos .productos__curepo {
   background-color: rgb(255, 179, 198);
   text-align: center;
   border-radius: 25px;
   margin: 15px;
+  padding: 15px;
 }
 
 .taller__cuerpo {
@@ -133,6 +136,7 @@ main {
   text-align: center;
   border-radius: 25px;
   margin: 15px;
+  padding: 15px;
 }
 .taller__cuerpo .modalidad__titulo {
   background-color: rgba(255, 134, 200, 0.842);
@@ -151,6 +155,7 @@ main {
   align-items: center;
   background-color: rgb(255, 179, 198);
   margin: 15px;
+  padding: 15px;
 }
 
 .encabezado__pedidos {
@@ -158,6 +163,7 @@ main {
   text-align: center;
   border-radius: 25px;
   margin: 15px;
+  padding: 1rem;
 }
 
 .invitciones {
@@ -370,7 +376,7 @@ a .productos__cuerpo {
     justify-content: center;
   }
 }
-@media (min-width: 4451px) and (max-width: 600px) {
+@media (min-width: 450px) and (max-width: 600px) {
   .img-bgnd {
     max-width: 100%;
     max-height: 40%;
@@ -393,6 +399,10 @@ a .productos__cuerpo {
   .img-bgnd {
     min-width: 100%;
     max-height: 20%;
+  }
+  .contenedor__carrusel {
+    display: grid;
+    grid-template-columns: auto;
   }
   .selec {
     font-size: small;
