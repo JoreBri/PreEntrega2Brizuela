@@ -146,6 +146,7 @@ main {
   margin: 30px;
   display: flex;
   flex-direction: row;
+  min-height: 100vh;
 }
 .miHistoria .miHistoriaTexto {
   border-radius: 30px;
