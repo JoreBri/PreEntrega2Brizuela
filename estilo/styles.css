@@ -331,10 +331,7 @@ a .productos__cuerpo {
   color: rgba(0, 0, 0, 0.793);
   width: 100%;
   justify-content: space-around;
-}
-
-.h3footer {
-  font-size: 12px;
+  padding: 15px;
 }
 
 .contacto__logos {
@@ -392,7 +389,7 @@ a .productos__cuerpo {
     flex-wrap: nowrap;
   }
   .pie .h3footer {
-    font-size: 4rem;
+    font-size: small;
   }
 }
 @media screen and (max-width: 450px) {
@@ -406,6 +403,14 @@ a .productos__cuerpo {
   }
   .selec {
     font-size: small;
+  }
+  .pie {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .pie .h3footer {
+    align-items: center;
   }
 }
 .presentacion {

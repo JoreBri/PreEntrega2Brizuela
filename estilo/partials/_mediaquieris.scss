@@ -48,7 +48,7 @@
         align-items: center;
         flex-direction: column-reverse;
         flex-wrap: nowrap;
-        .h3footer { font-size: 4rem;
+        .h3footer { font-size: small;
     }}
 }
 
@@ -63,7 +63,15 @@
         }
         .selec{
             font-size: small;
-        }}
+        }
+    .pie{
+        display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    .h3footer{
+        align-items: center;
+    }
+    }}
 
 
 
